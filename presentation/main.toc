@@ -1,0 +1,13 @@
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Motivation}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Background}{5}{0}{1}
+\beamer@subsectionintoc {1}{3}{Project scope}{9}{0}{1}
+\beamer@sectionintoc {2}{Methodology: The Pain}{10}{0}{2}
+\beamer@subsectionintoc {2}{1}{Data verification and validation}{11}{0}{2}
+\beamer@subsectionintoc {2}{2}{Data transformation}{22}{0}{2}
+\beamer@sectionintoc {3}{Results: The Gain}{32}{0}{3}
+\beamer@subsectionintoc {3}{1}{A geographical analysis of donor data}{33}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{45}{0}{4}
+\beamer@subsectionintoc {4}{1}{Limitations}{47}{0}{4}
+\beamer@subsectionintoc {4}{2}{Future work}{48}{0}{4}
+\beamer@subsectionintoc {4}{3}{Closing}{50}{0}{4}
