@@ -43,7 +43,8 @@ This project was undertaken for the SCDL3991 Science Dalyell Individual Research
 
 See below for contact details.
 
-| Supervisor | Dr. Rebekah Jenkin | rebekah.jenkin@sydney.edu.au |
-|------------|--------------------|------------------------------|
-| Co-supervisor | Professor Kevin Keay | kevin.keay@sydney.edu.au |
-| Student    | Antriksh Dhand     | adha5655@uni.sydney.edu.au   |
+| Role           | Name                    | Email                         |
+|----------------|-------------------------|-------------------------------|
+| Supervisor     | Dr. Rebekah Jenkin      | rebekah.jenkin@sydney.edu.au  |
+| Co-supervisor  | Professor Kevin Keay    | kevin.keay@sydney.edu.au      |
+| Student        | Antriksh Dhand          | adha5655@uni.sydney.edu.au    |
