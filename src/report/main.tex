@@ -1,0 +1,108 @@
+%%% Document formatting %%%
+\documentclass[
+    a4paper, 
+    stu,
+    biblatex,
+    %draftfirst,
+    helv,
+    floatsintext,
+    11pt,
+]{apa7}
+
+\title{The Challenges and Rewards of Analysing Handwritten Records}
+\authorsnames{Antriksh Dhand}
+\authorsaffiliations{{School of Medical Sciences, The University of Sydney}}
+
+\course{SCDL3991: Science Dalyell Individual Research Project}
+\duedate{15th June, 2024}
+\professor{Dr. Rebekah A. Jenkin and Professor Kevin Keay}
+
+\abstract{This research project investigates the challenges and rewards of analysing historical handwritten records through an analysis of Anatomy Registers at The University of Sydney. This paper discusses data verification, validation, and transformation techniques applied to improve data quality and prepare the dataset for meaningful analysis. It highlights the methods used for data standardisation and categorisation, and provide insights into societal trends over time through a geographical analysis of the data.}
+
+\addbibresource{bibliography.bib}
+
+%%% Image packages %%%
+\usepackage{graphicx}
+\graphicspath{ {./img/} }
+
+%%% Tables %%%
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{pdflscape} % Rotate tables
+
+%%% Text %%%
+\usepackage{hyperref} % hyperlinks
+\hypersetup{
+hidelinks,
+colorlinks=false,
+pdftitle={SCDL3991 Final Report},
+pdfpagemode=FullScreen
+}
+\usepackage{setspace} % line spacing
+\usepackage{lipsum} % lorem ipsum paragraphs
+\usepackage{nameref} % named references to sections for APA
+
+%%% CODE INPUT %%%
+\usepackage{listings}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{backgray}{RGB}{235, 235, 235}
+
+% Code input styling
+\lstset{
+    language=Python,
+    basicstyle=\linespread{1.2}\ttfamily\small,
+    numbers=left,
+    numberstyle=\tiny\color{codegray},
+    columns=fixed,
+    breaklines=true,
+    backgroundcolor=\color{backcolour},
+    frame=single,
+    showstringspaces=false,
+    commentstyle=\color{codegray},
+    literate={~} {$\sim$}{1},
+    upquote=true
+}
+
+% Code output styling
+\lstdefinestyle{output}{
+    basicstyle=\linespread{1.2}\ttfamily\small,
+    backgroundcolor=,
+    numbers=none,
+    frame=single,
+    breaklines=true,
+}
+
+\begin{document}
+
+% TITLE PAGE %
+%------------------------------------------------------------------%
+
+\maketitle
+
+%------------------------------------------------------------------%
+
+\input{1_intro}
+\newpage
+\input{2_method}
+\newpage
+\input{3_res_disc}
+\newpage
+\input{4_conclusion}
+
+
+%%%%%%% BIBLIOGRAPHY %%%%%%%%%
+
+\nocite{*} % Add all entries from bibliography file
+% %\addcontentsline{toc}{section}{References}
+\printbibliography
+
+%%%%%%% APPENDICES %%%%%%%%%
+
+\appendix
+
+\section{}
+
+All the code used to clean and analyse the Anatomy Registers dataset can be found at \url{https://github.com/antrikshdhand/SCDL3991-research}.
+
+\end{document}
